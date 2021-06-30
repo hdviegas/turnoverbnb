@@ -9,6 +9,8 @@
       <ul>
         <li><a href="#built-with">Built With</a></li>
         <li><a href="#usage">Usage</a></li>
+        <li><a href="#missing">What's Missing</a></li>
+        <li><a href="#improvements">Improvements</a></li>
       </ul>
     </li>   
     <li><a href="#contact">Contact</a></li>    
