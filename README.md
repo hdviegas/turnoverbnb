@@ -1,62 +1,66 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# TurnoverBnB Challenge
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#usage">Usage</a></li>
+      </ul>
+    </li>   
+    <li><a href="#contact">Contact</a></li>    
+  </ol>
+</details>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This project is part of the selection process for the PHP developer position at [TurnoverBnB](https://turnoverbnb.com/). The proposed challenge can be found [here](https://github.com/TidyDaily/tbnb-test). For this challenge, I tried to keep the code as cleaner and smaller as possible without giving up on organization and separation of concerns. The time I had available was short, so I decided to build a SPA (single page application). Hope you can find this project useful. Please feel free to contact me any time with any questions about it.
 
-## Learning Laravel
+### Built With
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+This project is built with the following tools/frameworks
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+* [Bootstrap](https://getbootstrap.com)
+* [Vue.Js](https://https://vuejs.org/)
+* [Laravel](https://laravel.com)
+* [MySql](https://mysql.com)
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### Usage
 
-### Premium Partners
+To try this project live please access: [Live](http://hil.dev.br/turnoverbnb)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
+### What's missing
 
-## Contributing
+At this project, unfortunatly I wasn't able to implement the *bulk update feature* given the short time I had available. The good news is that this feature is already implemented at the backend, with tests coverage included, leaving only front-end missing. 
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Improvements
 
-## Code of Conduct
+As long this is a test project, I'll probably not take this forward, but if I would, these are some improvements I'd like to work on: 
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+* Front-end Tests coverage
+* Docker-compose deploy structure
+* Exception treatment to a more user-friendly set of messages and feedbacks at API.
+* Improve UX
+* Implement bulk update in front-end
 
-## Security Vulnerabilities
+<!-- CONTACT -->
+## Contact
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Hilthermann Viegas 
 
-## License
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+hdviegas@gmail.com 
+
++55 (47) 99607-5878 
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/hdviegas
