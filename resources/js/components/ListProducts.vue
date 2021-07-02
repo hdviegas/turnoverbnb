@@ -1,19 +1,23 @@
 <template>
     <div>
-        <h2 class="text-center">Products List</h2>
- 
+        <h2 class="text-center">Products List </h2>
+         
         <table class="table">
             <thead>
             <tr>
+                <th>
+                    <router-link :to="{name: 'bulk', params: { selected_products: selectedProducts }}" class="btn btn-success">Bulk Edit</router-link>
+                </th>
                 <th>ID</th>
                 <th>Name</th>
                 <th>Quantity</th>
                 <th>Price</th>
-                <!-- <th>Actions</th> -->
+                <th>Actions</th>
             </tr>
             </thead>
             <tbody>
             <tr v-for="product in products" :key="product.id">
+                <td><input type="checkbox" id="" :value="product.id" v-model="selectedProducts"></td>
                 <td>{{ product.id }}</td>
                 <td>{{ product.name }}</td>
                 <td>{{ product.qty }}</td>
@@ -35,7 +39,8 @@
     export default {
         data() {
             return {
-                products: []
+                products: [],
+                selectedProducts: []
             }
         },
         created() {

@@ -9,8 +9,13 @@ use App\Models\Product;
 
 class ProductController extends Controller
 {
-    public function list(){
-        $products = Product::all();
+    public function list(Request $request){
+        $ids = $request->get('products');
+        if(is_array($ids) && !empty($ids)){
+            $products = Product::whereIn('id', $ids)->get();
+        }else{
+            $products = Product::all();
+        }
         if(is_null($products)){
             return response('', 204);
         }
